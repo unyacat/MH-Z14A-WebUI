@@ -1,0 +1,15 @@
+# General
+.DS_Store
+
+# IDE
+.idea
+
+# Python
+__pycache__/
+venv/
+
+# WebUI
+web/node_modules/
+
+# Detabase
+record.db
