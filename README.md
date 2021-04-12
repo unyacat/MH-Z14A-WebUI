@@ -34,7 +34,8 @@ NanoPi から MH-Z14A の値を取れるように接続・設定する
 * 過去 24 時間: /api/day
 
 ### Grafana との連携
-Grafana に [marcusolsson-json-datasource](https://github.com/marcusolsson/grafana-json-datasource) 等のJSONを読めるプラグインを導入することで描画させることができます．
+Grafana に [marcusolsson-json-datasource](https://github.com/marcusolsson/grafana-json-datasource) 等のJSONを読めるプラグインを導入することで描画させることができます．  
+  
 marcusolsson-json-datasource の場合
 - <サーバーIP>/api/day を指定．
 - `$[*].created_at` と `$[*].ppm` を軸に指定．それぞれ Time, Number とする．
