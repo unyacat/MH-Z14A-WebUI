@@ -39,5 +39,5 @@ Grafana に [marcusolsson-json-datasource](https://github.com/marcusolsson/grafa
 marcusolsson-json-datasource の場合
 - <サーバーIP>/api/day を指定．
 - `$[*].created_at` と `$[*].ppm` を軸に指定．それぞれ Time, Number とする．
-- Panel タブの Axes から Left Y の UNit を parts-per-million(ppm) にすることで正しい単位系になる．
+- Panel タブの Axes から Left Y の Unit を parts-per-million(ppm) にすることで正しい単位系になる．
 ![image](https://user-images.githubusercontent.com/14951631/114410210-26c28e00-9be6-11eb-9fe4-ef0970f25a91.png)
